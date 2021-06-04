@@ -1,12 +1,46 @@
-.App {
-  text-align: center;
+.logo {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  margin-left: 9px;
+  margin-top: 0px;
+  margin-right: 400px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.menu-list {
+  display: inline-flex;
+  list-style: none;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
+.menu-list li{
+  margin: 8px;
+  cursor: pointer;
+}
+
+.menu-list li:hover{
+  color: black;
+  font-weight: 600;
+}
+
+.donate {
+  background-color: green;
+  color: white;
+  border: transparent;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+
+.donate:hover {
+  background-color: rgb(37, 165, 37);
+}
+
+.Navbar {
+  background-color: white;
+  box-shadow: rgba(34, 34, 34, 0.522) 2px 1px 25px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
