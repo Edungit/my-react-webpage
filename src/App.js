@@ -1,12 +1,17 @@
 import './App.css';
-import Home from './Home';
 import Navbar from './Navbar';
+import {Route, Switch, Redirect} from 'react-router-dom';
+import About from './About';
+import Notfound from './Notfound';
 
 function App() {
   return (
-    <Navbar />,
-    <Home />
-    
+    <Switch>
+      <Route path='/About' component= {About} />
+      <Route path='/Notfound' component= {Notfound} />
+      <Route exact path='/' component= {Navbar} />
+      <Redirect to= '/Notfound' /> 
+    </Switch>
   );
 }
 

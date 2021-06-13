@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .logo {
   height: 40px;
   width: 40px;
@@ -40,6 +44,179 @@
 .Navbar {
   background-color: white;
   box-shadow: rgba(34, 34, 34, 0.522) 2px 1px 25px;
+}
+
+.web-banner {
+  display: flex;
+  margin: 25px;
+  padding: 20px;
+}
+
+.web-text {
+  width: 55%;
+  height: auto;
+  padding-left: 20px;
+}
+
+.webpic {
+  width: 35%;
+  background: url('webimg.jpg');
+  background-size: cover;
+  min-height: 350px;
+  height: 400px;
+}
+
+.webpic2 {
+  width: 38%;
+  background: url('man_anim.jpg');
+  background-size: cover;
+  min-height: 350px;
+  height: 400px;
+}
+
+.donate2 {
+  background-color: green;
+  color: white;
+  border: transparent;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: -5px;
+}
+
+.donate2:hover {
+  background-color: rgb(37, 165, 37);
+}
+
+.mission {
+  text-align: center;
+}
+
+.mission h1{
+  color: black;
+}
+
+.mission p{
+  color: green;
+}
+
+.four-boxes {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: center;
+}
+
+.box {
+  text-align: center;
+  margin: 12px;
+  box-shadow: #a9aaac90 3px 5px 5px 5px;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.box2 {
+  text-align: left;
+  margin: 12px;
+  border-radius: 30px;
+  width: 80%;
+  box-shadow: #a9aaac90 3px 5px 5px 5px;
+  padding: 22px;
+}
+
+.green {
+  color: green;
+}
+
+.bg-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 12px;
+  padding: 25px;
+  background: url('girl-sit.jpg');
+  background-size: cover;
+  background-blend-mode: luminosity;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.text-box {
+  margin: 20px;
+  padding: 75px;
+  border-right: solid 2px rgb(252, 251, 251);
+  color: white;
+}
+
+.text-boxl {
+  margin: 25px;
+  padding: 65px;
+  color: white;
+}
+
+.edu {
+  margin: 12px;
+}
+
+.footer-box {
+  background-color: #081C41;
+  padding-top: 7px;
+  margin-top: 40px;
+  margin-bottom: -25px;
+}
+
+.sub {
+  text-align: center;
+  justify-content: center;
+}
+
+.sub h1{
+  color: white;
+}
+
+.search {
+  border-radius: 25px;
+  padding: 12px;
+  border: none;
+  margin-right: -85px;
+  width: 290px;
+}
+
+.sub-btn {
+  background-color: #218838;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 7px;
+  cursor: pointer;
+  height: 38px;
+  width: 85px;
+}
+
+.info-box {
+  display: flex;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  justify-content: center;
+}
+
+.logo-content {
+  width: 25%;
+}
+
+.news {
+  width: 25%;
+}
+
+.links {
+  width: 25%;
+}
+
+.right {
+  background-color: #08142B;
+  text-align: center;
+  color: white;
+  padding: 15px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
