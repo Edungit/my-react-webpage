@@ -35,6 +35,7 @@ body {
   padding: 10px;
   cursor: pointer;
   margin-left: 150px;
+  border-radius: 20px;
 }
 
 .donate:hover {
@@ -81,6 +82,15 @@ body {
   padding: 10px;
   cursor: pointer;
   margin-left: -5px;
+  border-radius: 20px;
+}
+
+.edu-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  margin: 16px;
+  z-index: -2;
 }
 
 .donate2:hover {
@@ -106,6 +116,14 @@ body {
   justify-content: center;
 }
 
+.four-boxes-about {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: center;
+  margin-top: -120px;
+}
+
 .box {
   text-align: center;
   margin: 12px;
@@ -116,11 +134,14 @@ body {
 
 .box2 {
   text-align: left;
-  margin: 12px;
+  margin: 36px;
   border-radius: 30px;
-  width: 80%;
+  width: 280px;
   box-shadow: #a9aaac90 3px 5px 5px 5px;
-  padding: 22px;
+  padding: 15px;
+  position: relative;
+  z-index: 99999;
+  background-color: white;
 }
 
 .green {
@@ -217,6 +238,48 @@ body {
   text-align: center;
   color: white;
   padding: 15px;
+}
+
+/* About US */
+.green-div {
+  margin: 30px;
+  border-left: solid #00C853;
+  padding-left: 18px;
+  width: 60%;
+}
+
+.webpic3 {
+  width: 35%;
+  background: url('webpic2.JPG');
+  background-size: cover;
+  min-height: 350px;
+  height: 400px;
+}
+
+.girl {
+  width: 40%;
+  background: url('girl.jpg');
+  background-size: cover;
+  min-height: 300px;
+  height: 300px;
+  margin-left: 30px;
+}
+
+.resize {
+  width: 80%;
+}
+
+.empty {
+  width: 50%;
+}
+
+.web-left {
+  float: right;
+  width: 50%;
+}
+.grey-bg {
+  background-color: #F8F9FA;
+  padding-top: 20px;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
-import Home from './Home.js';
 import './logo512.png';
-import Footer from './Footer.js';
 import {Link} from 'react-router-dom'; 
 
 
@@ -17,11 +15,9 @@ function Navbar() {
       <li>{'Event'}</li>
       <li>{'Volunteer'}</li>
       <li>{'Contact'}</li>
-      <li><button className='donate'>{'DONATE NOW'}</button></li>
+      <li><Link to='/About' ><button className='donate'>{'DONATE NOW'}</button></Link></li>
       </ul>
     </nav>
-    <Home />
-    <Footer />
     </React.Fragment>
     
   );

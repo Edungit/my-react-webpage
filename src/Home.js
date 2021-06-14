@@ -2,11 +2,14 @@ import './App.css';
 import image1 from './1.jpg';
 import image2 from './2.jpg';
 import image3 from './3.jpg';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 
 function Home() {
   return (
     <>
+    <Navbar />
     <div className = 'web-banner'>
       <div className = 'web-text'>
       <h1>{'We help and cares for helpless'}</h1>
@@ -85,16 +88,15 @@ function Home() {
     <img className = 'edu-img' src= {image1} alt= {'edu'} />
     </div>
     <div className = 'edu'>
-    <img className = 'edu' src= {image2} alt= {'edu'} />
+    <img className = 'edu-img' src= {image2} alt= {'edu'} />
     </div>
     <div className = 'edu'>
-    <img className = 'edu' src= {image3} alt= {'edu'} />
+    <img className = 'edu-img' src= {image3} alt= {'edu'} />
     </div>
     </div>
 
-    <img src={image1} />
 
-    <div className = 'four-boxes'>
+    <div className = 'four-boxes-about'>
     <div className = 'box2'>
     <h2>{'Education for All Children'}</h2>
     <p>{'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}</p>
@@ -109,7 +111,7 @@ function Home() {
     </div>
     </div>
 
-    
+    <Footer />
     </>
     
   );
